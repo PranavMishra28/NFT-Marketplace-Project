@@ -1,19 +1,18 @@
-Copyright 2022 London App Brewery LTD (www.appbrewery.com)
+# NFT Marketplace Project
 
-The code in this tutorial project is licended under the Apache License, Version 2.0 (the "License");
-you may not use this project except in compliance with the License.
-You may obtain a copy of the License at
+The **NFT Marketplace Project** is a decentralized application designed for users to mint, buy, sell, and trade Non-Fungible Tokens (NFTs) effortlessly. It provides a user-friendly interface for managing digital assets on the blockchain.
 
-    http://www.apache.org/licenses/LICENSE-2.0
+## Table of Contents
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+- [Project Overview](#project-overview)
+- [Technologies Used](#technologies-used)
+- [How to Run the Project](#how-to-run-the-project)
+- [Minting and Listing NFTs](#minting-and-listing-nfts)
+- [License](#license)
 
-Here is the TL;DR version of the above licence:
-https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)
+## Project Overview
+
+The NFT Marketplace Project allows users to create and manage their own NFTs. Users can mint unique digital collectibles, list them for sale, and engage in transactions securely through the decentralized platform. This project aims to provide a seamless experience for both creators and collectors.
 
 # To Install and Run the Project
 
@@ -36,8 +35,9 @@ dfx deploy --argument='("CryptoDunks #123", principal "gbdev-tyqsv-hnvqv-7mgz4-4
 ```
 
 4. Head to localhost
-
+```
 http://localhost:8080/
+```
 
 # Minter Else HTML
 
@@ -131,3 +131,13 @@ dfx canister call <REPLACE WITH NFT CANISTER ID> transferOwnership '(principal "
 ```
 const dangPrincipal = Principal.fromText("<REPLACE WITH TOKEN CANISTER ID>");
 ```
+## License
+The code in this project is licensed under the Apache License, Version 2.0 (the "License"); you may not use this project except in compliance with the License. You may obtain a copy of the License at Apache License 2.0.
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+For a quick summary of the license, visit TL;DR Legal - Apache License 2.0.
+
+
+## Copyright
+Copyright 2022 London App Brewery LTD (www.appbrewery.com)
